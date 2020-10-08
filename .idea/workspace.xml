@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2274678-bd41-47d2-877e-2fac0e03d7a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_amazonaws_amazon_sqs_java_messaging_lib_1_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_amazonaws_aws_java_sdk_core_1_11_447.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_amazonaws_aws_java_sdk_core_1_11_547.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_amazonaws_aws_java_sdk_dynamodb_1_11_547.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_amazonaws_aws_java_sdk_sqs_1_11_186.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_amazonaws_aws_java_sdk_sqs_1_11_547.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_amazonaws_aws_lambda_java_core_1_2_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_amazonaws_aws_lambda_java_events_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/RecieveBatchRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/RecieveBatchesQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/RecievePostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/RecievePostsQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/postStatus/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/postStatus/PostStatusQueueDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/nightlife_backend_jar2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/nightlife_backend_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nightlife-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nightlife-backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/nightlife_backend_jar/nightlife-backend.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/nightlife_backend_jar/nightlife-backend.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/nightlife_backend_jar2/nightlife-backend.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/META-INF/nightlife-backend.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/changeImage/changeImageHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/changeImage/changeImageHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/changeImage/changeImageRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/changeImage/changeImageRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/follow/FollowHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/follow/FollowHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/getFeed/GetFeedHandler$CustomComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/getFeed/GetFeedHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/getFeed/GetFeedHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/getFollowers/GetFollowersHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/getFollowers/GetFollowersHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/getFollowing/GetFollowingHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/getFollowing/GetFollowingHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/getMentions/GetMentionsHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/getMentions/GetMentionsHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/getStatus/GetStatusHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/getStatus/GetStatusHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/getStatus/GetStatusRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/getStatus/GetStatusRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/getStory/GetStoryHandler$CustomComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/getStory/GetStoryHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/getStory/GetStoryHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/getUser/GetUserHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/getUser/GetUserHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/getUser/GetUserRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/getUser/GetUserRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/getUser/GetUserResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/getUser/GetUserResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/login/LoginHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/login/LoginHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/logout/LogoutHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/logout/LogoutHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/logout/LogoutRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/logout/LogoutRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/models/ImageFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/models/ImageFormat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/models/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/models/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/models/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/models/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/postStatus/postStatusHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/postStatus/postStatusHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/postStatus/postStatusRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/postStatus/postStatusRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/signup/SignupHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/signup/SignupHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/testdynamo/DynamoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/testdynamo/DynamoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nightlife-backend/unfollow/UnfollowHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nightlife-backend/unfollow/UnfollowHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/changeImage/changeImageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/changeImage/changeImageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/changeImage/changeImageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/changeImage/changeImageRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/follow/FollowHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/follow/FollowHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getFeed/GetFeedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getFeed/GetFeedHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getFollowers/GetFollowersHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getFollowers/GetFollowersHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getFollowing/GetFollowingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getFollowing/GetFollowingHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getMentions/GetMentionsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getMentions/GetMentionsHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getStatus/GetStatusHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getStatus/GetStatusHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getStatus/GetStatusRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getStatus/GetStatusRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getStory/GetStoryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getStory/GetStoryHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getUser/GetUserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getUser/GetUserHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getUser/GetUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getUser/GetUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getUser/GetUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getUser/GetUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login/LoginHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/LoginHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logout/LogoutHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logout/LogoutHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logout/LogoutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logout/LogoutRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/ImageFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ImageFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/postStatus/postStatusHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/postStatus/postStatusHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/postStatus/postStatusRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/postStatus/postStatusRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/signup/SignupHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/signup/SignupHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testdynamo/DynamoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testdynamo/DynamoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unfollow/UnfollowHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unfollow/UnfollowHandler.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1SqJ845xChh8ecBctASOs7EPLXS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SpotifyFriends/spotifyfriends-backend" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39195403" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="DynamoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testdynamo.DynamoTest" />
+      <module name="nightlife-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testdynamo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="models.Test" />
+      <module name="nightlife-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.DynamoTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2274678-bd41-47d2-877e-2fac0e03d7a5" name="Default Changelist" comment="" />
+      <created>1572285029435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572285029435</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/getStatus/GetStatusHandler.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/nightlife_backend$Test.ic" NAME="Test Coverage Results" MODIFIED="1574643347632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>models.*</FILTER>
+    </SUITE>
+  </component>
+</project>
